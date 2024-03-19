@@ -1,8 +1,8 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About App",
-  description: "About create next app",
+  title: "Secondary App",
+  description: "Secondary create next app",
 };
 
 export default function RootLayout({
@@ -15,7 +15,7 @@ export default function RootLayout({
       <head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="icon" type="image/png" href="/two.png" /> {/* Change href to your favicon image */}
+        <link rel="icon" type="image/png" href="/one.png" /> {/* Change href to your favicon image */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Your Twitter Title" /> {/* Change to your Twitter title */}
         <meta name="twitter:description" content="Your Twitter Description" /> {/* Change to your Twitter description */}
