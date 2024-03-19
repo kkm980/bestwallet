@@ -3,6 +3,9 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Secondary App",
   description: "Secondary create next app",
+  icons: {
+    icon: "/two.png",
+  },
 };
 
 export default function RootLayout({
